@@ -1,10 +1,9 @@
 array = [1, 2, 3]
-def square!
-  self.map {|num| num * 2}
-  self
+def square
+  array.map {|array| num * 2}
 end
 
 
 def square_array(array)
-  array.each {|array| array * array}
+  square.each {|array| array * array}
 end
