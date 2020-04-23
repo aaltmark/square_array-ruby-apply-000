@@ -1,4 +1,4 @@
+numbers = [1, 2, 3]
 def square_array(array)
-  self.map {|num| num ** 2}
-  self
+  numbers.each {|num| num ** 2}
 end
